@@ -1,0 +1,14 @@
+body{
+    font-size: 2.0vw;
+}
+
+.header {
+    text-align: center;
+    display: grid;
+    grid-template-areas: 
+    'header header header';
+}
+
+h1 {
+    grid-area: header;
+}
